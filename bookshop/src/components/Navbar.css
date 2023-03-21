@@ -1,0 +1,32 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #695a5a;
+}
+
+.Navbar img {
+    width: 100px;
+    border-radius: 20px;
+    margin-left: 100px;
+}
+
+.Navbar-child ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.Navbar-child ul li {
+    margin-right: 20px;
+}
+
+.anchor {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
