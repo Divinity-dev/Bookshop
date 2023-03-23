@@ -13,12 +13,12 @@
   margin: 30px;
   text-align: center;
   background-color: #fff;
-  box-shadow: 4px 4px 4px 4px #979393;
+  box-shadow: 4px 4px 4px 4px #b8aeae;
 }
 
 .book-container img {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
 }
 
 .book-container h4 {
@@ -26,8 +26,8 @@
   background-color: #000;
   color: #fff;
   border-radius: 5px;
-  width: 280px;
-  font-size: 10px;
+  width: 180px;
+  font-size: 6px;
 }
 
 .book-container img:hover {
