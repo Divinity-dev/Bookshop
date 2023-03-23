@@ -4,7 +4,6 @@ const baseUrl = 'https://example-data.draftbit.com/books?_limit50';
 export const fetchBooks = createAsyncThunk(
   'Book/Bookdetails',
   async () => {
-    console.log('Why am i called now?');
     const response = await (await fetch(baseUrl)).json();
     return response;
   },
