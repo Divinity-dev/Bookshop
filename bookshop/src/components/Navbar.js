@@ -13,11 +13,6 @@ function Navbar() {
               Books
             </NavLink>
           </li>
-          <li>
-            <NavLink className="anchor" to="/favourites">
-              favourites
-            </NavLink>
-          </li>
         </ul>
       </div>
     </div>

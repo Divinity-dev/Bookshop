@@ -2,7 +2,7 @@ import './footer.css';
 
 function Footer() {
   return (
-    <div><h2>Copyright of Divinity Bookshop</h2></div>
+    <div className="footer"><h2>Bookshop 2023&copy;</h2></div>
   );
 }
 
