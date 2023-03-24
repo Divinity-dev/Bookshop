@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Book page renders rockets and details 1`] = `
+<div
+  className="Books"
+  data-testid="book1"
+>
+  <input
+    className="input"
+    onChange={[Function]}
+    placeholder="Search Books by title"
+    type="text"
+  />
+</div>
+`;

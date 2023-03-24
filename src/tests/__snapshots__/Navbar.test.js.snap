@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header page renders correctly 1`] = `
+<div
+  className="Navbar"
+>
+  <img
+    alt="logo"
+    src="https://img.freepik.com/free-vector/gradient-book-company-logo-template_23-2148807612.jpg?w=900&t=st=1679439998~exp=1679440598~hmac=ac618481ea80875b02de103b619ea72de86c8e3bb7eb48095e2ac7d7f3ffc51d"
+  />
+  <div
+    className="Navbar-child"
+  >
+    <ul>
+      <li>
+        <a
+          className="anchor"
+          href="/Books"
+          onClick={[Function]}
+        >
+          Books
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
