@@ -66,7 +66,7 @@
 > Link will be added after deployment
 - [Link to live video](https://www.loom.com/share/2f34c2907ef64db3a577d49a3e0f84ee)
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://bookhubs.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
