@@ -192,7 +192,7 @@ If you like this project, please give a Start to the github repo.
 
 >To be updated at the end of the project
 
-I would like to thank...
+I would like to thank Nelson Sakwa who's the inspiration behind the design
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
