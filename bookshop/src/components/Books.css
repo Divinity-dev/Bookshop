@@ -10,7 +10,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 30px;
+  margin: 10px;
+  margin-top: 30px;
   text-align: center;
   background-color: #fff;
   box-shadow: 4px 4px 4px 4px #b8aeae;
@@ -20,6 +21,7 @@
   width: 200px;
   height: 200px;
 }
+
 
 .book-container h4 {
   padding: 10px;
@@ -41,4 +43,26 @@
   top: 100px;
   right: 30px;
   height: 30px;
+}
+
+@media screen and (max-width: 768px) {
+.book-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.Books {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  margin-top: 30px;
+}
+
+.book-container h4 {
+  width: 80%;
+}
+
+h3 {
+  width: 100%;
+  font-size: 15px;
+}
 }

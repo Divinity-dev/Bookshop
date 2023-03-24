@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`footer page renders correctly 1`] = `
+<div
+  className="footer"
+>
+  <h2>
+    Bookshop 2023©
+  </h2>
+</div>
+`;

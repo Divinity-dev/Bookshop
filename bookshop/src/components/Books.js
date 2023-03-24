@@ -13,7 +13,7 @@ function Books() {
     dispatch(fetchBooks());
   }, [dispatch]);
   return (
-    <div className="Books">
+    <div className="Books" data-testid="book1">
       <input placeholder="Search Books by title" className="input" type="text" onChange={(e) => setsearch(e.target.value)} />
       {
       books.filter((user) => user.title.toLowerCase().includes(search)).map((book) => (

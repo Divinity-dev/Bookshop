@@ -1,4 +1,3 @@
-import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import Books from './components/Books';
 import Footer from './components/footer';
@@ -13,6 +12,7 @@ function App() {
         <Route path="/" element={<Books />} />
         <Route path="/Books" element={<Books />} />
         <Route path="/Book/:id" element={<Bookdetails />} />
+        <Route path="/Books/:id" element={<Books />} />
       </Routes>
       <Footer />
 

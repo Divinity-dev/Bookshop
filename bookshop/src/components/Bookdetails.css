@@ -1,0 +1,17 @@
+.Details {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.Back-arrow {
+    width: 40px;
+    position: absolute;
+    top: 120px;
+    left: 40px;
+}
+
+.Image2 {
+    width: 200px;
+    height: 200px;
+}
