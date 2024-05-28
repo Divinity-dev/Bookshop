@@ -12,7 +12,6 @@ function App() {
         <Route path="/" element={<Books />} />
         <Route path="/Books" element={<Books />} />
         <Route path="/Book/:id" element={<Bookdetails />} />
-        <Route path="/Books/:id" element={<Books />} />
       </Routes>
       <Footer />
 

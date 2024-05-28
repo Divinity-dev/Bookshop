@@ -16,15 +16,16 @@ function Books() {
     <div className="Books" data-testid="book1">
       <input placeholder="Search Books by title" className="input" type="text" onChange={(e) => setsearch(e.target.value)} />
       {
-      books.filter((user) => user.title.toLowerCase().includes(search)).map((book) => (
-        <div className="book-container" key={book.id}>
-          <h3>{book.title}</h3>
-          <Link to={`/Book/${book.id}`}>
-            <img src={book.image_url} alt="" />
-          </Link>
-          <h4>{book.genres}</h4>
-        </div>
-      ))
+      books.filter((user) => user.title && typeof user.title === 'string' && user.title.toLowerCase().includes(search))
+        .map((book) => (
+          <div className="book-container" key={book.id}>
+            <h3>{book.title}</h3>
+            <Link to={`/Book/${book.id}`}>
+              <img src={book.image_url} alt="" />
+            </Link>
+            <h4>{book.genres}</h4>
+          </div>
+        ))
 }
     </div>
   );

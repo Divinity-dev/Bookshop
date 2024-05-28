@@ -14,7 +14,7 @@ function Bookdetails() {
   }, [dispatch, id]);
   return (
     <div className="Details">
-      <Link to={`/Books/${id}`}><img src="https://cdn-icons-png.flaticon.com/512/93/93634.png" alt="back arrow" className="Back-arrow" /></Link>
+      <Link to="/Books"><img src="https://cdn-icons-png.flaticon.com/512/93/93634.png" alt="back arrow" className="Back-arrow" /></Link>
       <div key={bookDetails.id} data-testid="test1">
         <h3>{bookDetails.title}</h3>
         <img src={bookDetails.image_url} alt="book" className="Image2" />

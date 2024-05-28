@@ -50,5 +50,4 @@ const BookSlice = createSlice({
       });
   },
 });
-// export const { updateData, rocketreserve } = RocketDataSlice.actions;
 export default BookSlice.reducer;
